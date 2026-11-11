@@ -1,0 +1,261 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Espresso",
+      "category": "Coffee",
+      "price": 25000,
+      "description": " Kuchli, quyuq va biroz achchiq. Kichik finjonda beriladi; shirinlik sifatida brownie bilan yaxshi mos keladi. Menyudagi tavsiya: kunduzgi payt.",
+      "image": "https://images.openai.com/static-rsc-4/bRkfSoWKa0Ev3H4wJClx5m4j_QG-e5Ut_Y1LEQhkJuvtNgTYgtfg457OWiejfqgSth-Ysudc9Cd35rQcVn-FUNbAv_xgu0GZ3L4us9QajrZmcDap4eNH7lxn2o6BibwFNbYN6fYAaT-wUtJH0olwIpscc0mTRF0NcD0SdK-KvkQb_kj35AHMR69Y0u8K0eX-?purpose=inline",
+      "rating": 4.8,
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "Cappuccino",
+      "category": "Coffee",
+      "price": 30000,
+      "description": " Espresso, sut va mayin ko‘pik uyg‘unligi; yumshoq va muvozanatli. Ertalab yoki kunduzgi tanaffusda, kruassan bilan mos.",
+      "image": "https://images.openai.com/static-rsc-4/TqQmQ157wyeMJaPG2NUY5c_O0JqGApFZUdnau2JyArJ95UtcPfAuvHLq7nhSv1Pq2bjQYVHHHsmPv05oaMN8VUW-4wFhSLltyd4ePet0lKQ_igqtF70-p3A21Aex1skRLv-5qr0JykGgGyuN5USJuYTHR9oc1ClqzStCMV2yyA6lO19gG-Gs-u0m6_UeWB1y?purpose=fullsize",
+      "rating": 4.9,
+      "available": true
+    },
+    {
+      "id": 3,
+      "name": "Latte",
+      "category": "Coffee",
+      "price": 35000,
+      "description": " Sutli, mayin va espresso ta’mi yengilroq seziladi. Ertalab yoki tushdan keyin; cheesecake bilan yaxshi juftlik.",
+      "image": "https://images.openai.com/static-rsc-4/mBZirREmIpSMnVDrAxvyQnSIUvLV4HweeIKT85YyNaM7FxU9umeu4CReSk0mrH8SKbOX509_c4fHnjMBSG7LMRO9bGuU2AdDgvMckFzlbMzd1854BC5ND4j3KVm1wuE-ROZXlZi2jKMpn0YSN0TF-SbOzkNR2gsOoJEvNpH9uxlco4IJ1e6R5ca_h_0GC4wJ?purpose=fullsize",
+      "rating": 4.7,
+      "available": true
+    },
+    {
+      "id": 4,
+      "name": "Americano",
+      "category": "Coffee",
+      "price": 22000,
+      "description": " Qora qahvaga o‘xshash, yengilroq tana va aniq qahva ta’mi. Kunduzgi payt ichimligi; shokoladli tort bilan mos.",
+      "image": "https://images.openai.com/static-rsc-4/4OS4wB7g7Yl_Okpy8nviLwtxYrHMmFbfqVuv-iAQwS8GktoB7Ci5UyFqUAkJnbe4Ta7emJI8v_Nzt19hsega0wlo2Noii4FVDB0hxvaDf53npdbm7v3qslVw20NINUhvxDFb3Ee5ON5cvQs95sOld_H1Y2HtGuBQguX1hHfAOkY?purpose=inline",
+      "rating": 4.6,
+      "available": true
+    },
+    {
+      "id": 5,
+      "name": "Mocha",
+      "category": "Coffee",
+      "price": 38000,
+      "description": " Qahva va shokolad aralashmasi, shirin va qaymoqsimon. Kunduzgi desert tanaffusida tiramisu bilan mos.",
+      "image": "https://images.openai.com/static-rsc-4/ROtS9NWUYSaq-GCAT0mtdj4ArbURx1sStjA8SbkQM1QaWIxzo04tBiAGd0jm_a5EH0sRoZjCyLCCqn8Qq2waX1Ewnursonkm51LN2SJq-LPp8PnH4x7rezgmJuo2RxpM9l_efnRgcbx34o-CM7JGIVigMRGQVzM3M15LQDJu1kuhgyJW5iz51ox3_B0kLzMZ?purpose=fullsize",
+      "rating": 4.9,
+      "available": true
+    },
+    {
+      "id": 6,
+      "name": "Caramel Macchiato",
+      "category": "Coffee",
+      "price": 40000,
+      "description": " Sutli espresso, vanil va karamelning shirin notalari. Kunduzgi payt; dolchinli bulochka bilan mazali uyg‘unlik.",
+      "image": "https://i.pinimg.com/736x/3a/74/db/3a74db74d7ce5a4683e6f3a2f5dc6462.jpg",
+      "rating": 4.9,
+      "available": true
+    },
+    {
+      "id": 7,
+      "name": "Vanilla Latte",
+      "category": "Coffee",
+      "price": 37000,
+      "description": " Mayin sutli latte va vanilning yoqimli hidi. Kunduzgi payt; makaron shirinliklari bilan mos.",
+      "image": "https://i.pinimg.com/1200x/ba/a2/33/baa233c0d72f332575208340143480f5.jpg",
+      "rating": 4.8,
+      "available": true
+    },
+    {
+      "id": 8,
+      "name": "Iced Coffee",
+      "category": "Coffee",
+      "price": 32000,
+      "description": " Sovuq, tetiklantiruvchi va qahva ta’mi aniq. Issiq kunlarda kunduzgi payt; shokoladli muffin bilan mos.",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/df43b596-7f01-4b6d-a727-bf781d582c0c.jpeg?resize=980:*",
+      "rating": 4.5,
+      "available": true
+    },
+    {
+      "id": 9,
+      "name": "Cold Brew",
+      "category": "Coffee",
+      "price": 35000,
+      "description": " Sovuq usulda damlangan, odatda yumshoqroq va nordonligi pastroq. Kunduzgi payt; mevali tart bilan mos.",
+      "image": "https://i.pinimg.com/1200x/35/8e/b8/358eb8d2ddd87e3d1721c0ab8a30ab65.jpg",
+      "rating": 4.8,
+      "available": true
+    },
+    {
+      "id": 10,
+      "name": "Raf Coffee",
+      "category": "Coffee",
+      "price": 38000,
+      "description": " Qaymoqli, yumshoq va vanilga o‘xshash shirin hidli. Kunduzgi desert paytida Red Velvet bilan mos.",
+      "image": "https://images.openai.com/static-rsc-4/_H5K_cOYigPGgzFWV_4xLEIa0uBscrykyPZbnhfAsSI61H5qdemRBHignkPBHHw3IjFZOY1PxKzo7BrsqLo8ncYGQcrQ51aE_Jk1Eh3wrz3-b2RWG394XSB4ztdrS8DmAZSo69CAJOvv5vgSox1U43iBi-RxmtHdzp5J3RNU77-qq1q0Is3ZD03oDo6yZgIk?purpose=fullsize",
+      "rating": 4.8,
+      "available": true
+    },
+    {
+      "id": 11,
+      "name": "Turkish Coffee",
+      "category": "Coffee",
+      "price": 28000,
+      "description": " Quyuq, kuchli va o‘ziga xos. An’anaviy usulda tayyorlanadi. Kichik finjonda beriladi; lokum yoki shokolad bilan mos.",
+      "image": "https://images.unsplash.com/photo-1579992357154-faf4bde95b3d?auto=format&fit=crop&w=900&q=85",
+      "rating": 4.9,
+      "available": true
+    },
+    {
+      "id": 12,
+      "name": "Matcha Latte",
+      "category": "Coffee",
+      "price": 35000,
+      "description": " Mayin, sutli va o‘ziga xos yashil choy ta’miga ega. Sovuq yoki issiq holda tayyorlanadi. Kunduzgi payt ichish uchun mos.",
+      "image": "https://images.unsplash.com/photo-1515823064-d6e0c04616a7?auto=format&fit=crop&w=900&q=85",
+      "rating": 4.8,
+      "available": true
+    },
+    {
+      "id": 13,
+      "name": "Chocolate Cake",
+      "category": "Dessert",
+      "price": 40000,
+      "description": " Boy shokoladli, nam va yumshoq. Americano yoki shakarsiz latte bilan yaxshi mos.",
+      "image": "https://i.pinimg.com/736x/1e/bf/81/1ebf81ae36688289ad922213bab4dab2.jpg",
+      "rating": 4.8,
+      "available": true
+    },
+    {
+      "id": 14,
+      "name": "Cheesecake",
+      "category": "Dessert",
+      "price": 45000,
+      "description": " Qaymoqsimon, mayin va yengil nordon. Latte yoki cappuccino bilan yaxshi mos.",
+      "image": "https://images.unsplash.com/photo-1524351199678-941a58a3df50?auto=format&fit=crop&w=900&q=85",
+      "rating": 4.7,
+      "available": true
+    },
+    {
+      "id": 15,
+      "name": "Brownie",
+      "category": "Dessert",
+      "price": 28000,
+      "description": " Zich, yumshoq va kuchli shokoladli. Espresso yoki Americano bilan yaxshi mos.",
+      "image": "https://i.pinimg.com/736x/14/27/fe/1427fe705494162c8c5f5ca3abddb0bd.jpg",
+      "rating": 4.9,
+      "available": true
+    },
+    {
+      "id": 16,
+      "name": "Tiramisu",
+      "category": "Dessert",
+      "price": 42000,
+      "description": " Qahva, kakao va mascarpone kremi uyg‘unligi. Mocha yoki cappuccino bilan mos.",
+      "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=900&q=85",
+      "rating": 4.9,
+      "available": true
+    },
+    {
+      "id": 17,
+      "name": "Strawberry Tart",
+      "category": "Dessert",
+      "price": 38000,
+      "description": " Qulupnayning mevali nordon-shirinligi va qarsildoq asos. Cold Brew bilan yaxshi mos.",
+      "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=900&q=85",
+      "rating": 4.7,
+      "available": true
+    },
+    {
+      "id": 18,
+      "name": "Croissant",
+      "category": "Dessert",
+      "price": 22000,
+      "description": " Sariyog‘li, yengil va qat-qat qarsildoq. Cappuccino yoki latte bilan nonushta paytida mos.",
+      "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=900&q=85",
+      "rating": 4.8,
+      "available": true
+    },
+    {
+      "id": 19,
+      "name": "Cinnamon Roll",
+      "category": "Dessert",
+      "price": 30000,
+      "description": " Dolchinli, yumshoq va usti shirin glazurli. Caramel Macchiato bilan yaxshi mos.",
+      "image": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&w=900&q=85",
+      "rating": 4.8,
+      "available": true
+    },
+    {
+      "id": 20,
+      "name": "Macarons",
+      "category": "Dessert",
+      "price": 35000,
+      "description": " Tashqi qismi yengil qarsildoq, ichi yumshoq va shirin. Vanilla Latte bilan mos.",
+      "image": "https://images.unsplash.com/photo-1569864358642-9d1684040f43?auto=format&fit=crop&w=900&q=85",
+      "rating": 4.7,
+      "available": true
+    },
+    {
+      "id": 21,
+      "name": "Chocolate Muffin",
+      "category": "Dessert",
+      "price": 25000,
+      "description": " Yumshoq, mayin va shokolad bo‘lakchali. Iced Coffee bilan yaxshi mos.",
+      "image": "https://images.unsplash.com/photo-1607958996333-41aef7caefaa?auto=format&fit=crop&w=900&q=85",
+      "rating": 4.6,
+      "available": true
+    },
+    {
+      "id": 22,
+      "name": "Red Velvet Cake",
+      "category": "Dessert",
+      "price": 43000,
+      "description": " Mayin kakao notasi va qaymoqli krem. Raf Coffee bilan yaxshi mos.",
+      "image": "https://i.pinimg.com/736x/c8/6e/7f/c86e7f0aa444a8d9d108aa52d3403dd3.jpg",
+      "rating": 4.8,
+      "available": true
+    },
+
+    {
+      "id": 26,
+      "name": "Lemon Cake",
+      "category": "Dessert",
+      "price": 32000,
+      "description": " Limonning yengil nordonligi, yumshoq xamir va shirin glazur uyg‘unligi. Americano bilan yaxshi mos keladi.",
+      "image": "https://images.unsplash.com/photo-1519915028121-7d3463d20b13?auto=format&fit=crop&w=900&q=85",
+      "rating": 4.8,
+      "available": true
+    },
+    {
+      "id": 24,
+      "name": "Strawberry Cheesecake",
+      "category": "Dessert",
+      "price": 42000,
+      "description": " Qaymoqli pishloq kremi, yumshoq asos va qulupnayning shirin-nordon ta’mi. Latte bilan juda yaxshi mos keladi.",
+      "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=900&q=85",
+      "rating": 4.8,
+      "available": true
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "All"
+    },
+    {
+      "id": 2,
+      "name": "Coffee"
+    },
+    {
+      "id": 3,
+      "name": "Dessert"
+    }
+  ],
+  "orders": [],
+  "users": []
+}

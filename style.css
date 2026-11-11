@@ -1,0 +1,1170 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+.header {
+  width: 100%;
+  height: 90px;
+  background-color: rgba(113, 53, 31, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.home {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 90px;
+
+  background-image: url("./assets/espresso-surrounded-by-scattered-coffee-beans-dark-surface 2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.logo {
+  width: 200px;
+  height: 80px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  flex: 1;
+}
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  white-space: nowrap;
+  padding: 10px 20px;
+}
+.admin :active {
+  color: #6f4e37;
+}
+.nav .active {
+  background-color: #71351f;
+  border: 1px solid white;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.nav .active:hover {
+  background-color: #ffffff;
+  color: #71351f;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.nav .active:active {
+  transform: scale(0.92);
+  background-color: #d6b58c;
+  color: #000;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  flex-shrink: 0;
+}
+
+.buttons button {
+  padding: 10px 22px;
+  border: 1px solid white;
+  border-radius: 25px;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.buttons button {
+  transition: 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #ffffff;
+  color: #71351f;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.buttons button:active {
+  transform: scale(0.92);
+  background-color: #d6b58c;
+  color: #000;
+}
+
+/* section 1 */
+.sec-1 {
+  width: 100%;
+  display: flex;
+  height: 430px;
+  color: white;
+  margin-top: 100px;
+  padding: 20px 30px;
+  align-items: center;
+}
+
+.text {
+  width: 43%;
+}
+
+.text h1 {
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  font-family: "Caprasimo", serif;
+  text-shadow: 2px 3px 5px black;
+}
+
+.text p {
+  font-size: 22px;
+  line-height: 1.4;
+}
+
+.sec-btn {
+  display: flex;
+  gap: 35px;
+  margin-top: 15px;
+}
+
+.sec-btn button {
+  padding: 10px 18px;
+  border: 0.5px solid white;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.sec-btn button:hover {
+  background-color: #71351f;
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.sec-btn button:active {
+  transform: scale(0.92);
+  background-color: #d6b58c;
+  color: black;
+}
+
+.info {
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.info h3 {
+  font-size: 19px;
+}
+
+.info p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* section 2 */
+.sec-2 {
+  width: 100%;
+  height: 140px;
+  display: flex;
+  gap: 130px;
+  align-items: center;
+  padding-left: 420px;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  color: #554d45;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.category i {
+  font-size: 42px;
+}
+
+.category p {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.category {
+  transition: 0.3s;
+}
+
+.category:hover {
+  color: #71351f;
+  transform: translateY(-5px);
+}
+
+.category:active {
+  transform: scale(0.92);
+  color: #71351f;
+}
+
+/* section 3 */
+.sec-3 {
+  width: 100%;
+  height: 740px;
+  background-color: #eeeeee;
+  position: relative;
+  display: flex;
+  overflow: visible;
+}
+
+.about-img {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+.about-img img {
+  width: 345px;
+  height: 345px;
+  object-fit: cover;
+  border-radius: 80px;
+  position: absolute;
+}
+
+.img1 {
+  top: 10px;
+  left: 200px;
+}
+
+.img2 {
+  top: 183px;
+  left: 470px;
+  z-index: 2;
+}
+
+.img3 {
+  top: 384px;
+  left: 200px;
+}
+
+.about-text {
+  width: 50%;
+  position: absolute;
+  top: 165px;
+  right: 10px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.about-text h1 {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 35px;
+  color: black;
+}
+
+.about-text p {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.4;
+  color: black;
+}
+
+.about-coffee {
+  width: 380px;
+  height: auto;
+  position: absolute;
+  margin-left: 50%;
+  top: 390px;
+  z-index: 3;
+}
+/* json fayl */
+#coffee,
+#dessert {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  gap: 70px;
+  justify-content: center;
+}
+
+.card {
+  width: 350px;
+  padding: 16px;
+  box-sizing: border-box;
+  background: #d9d9d9;
+  border: 1px solid #222;
+  border-radius: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px #0002;
+}
+
+.card-img {
+  position: relative;
+  height: 220px;
+  border-radius: 28px;
+  overflow: hidden;
+  background: #1a1a1a;
+}
+
+.card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: 0.4s;
+}
+
+.card:hover .card-img img {
+  transform: scale(1.05);
+}
+
+.card-body {
+  padding: 20px 14px 0;
+}
+
+.card-body h2 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 26px;
+  font-weight: bold;
+  color: #000;
+}
+
+.card-body p {
+  margin: 12px 0 0;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #444;
+  min-height: 95px;
+}
+
+.card-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 14px 8px;
+  gap: 10px;
+}
+
+.card-bottom h3 {
+  font-size: 20px;
+  color: #c8643c;
+  margin: 0;
+}
+
+.card-bottom button {
+  border: none;
+  cursor: pointer;
+  padding: 14px 20px;
+  border-radius: 14px;
+  background-color: #3e1f14;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.card-bottom button:hover {
+  background: #55291a;
+  transform: scale(1.05);
+}
+
+/* like */
+.card-img {
+  position: relative;
+  height: 220px;
+  border-radius: 28px;
+  overflow: hidden;
+  background: #1a1a1a;
+}
+
+.like-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 10;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  line-height: 1;
+  outline: none;
+  user-select: none;
+}
+
+.like-btn.active {
+  color: red;
+}
+
+.rating {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  top: auto;
+  left: auto;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+#coffeeSeeAll,
+#dessertSeeAll {
+  display: block;
+  margin: 40px auto;
+  padding: 14px 35px;
+  background: #6f4e37;
+  color: white;
+  border: 2px solid #6f4e37;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#coffeeSeeAll:hover,
+#dessertSeeAll:hover {
+  background: transparent;
+  color: #6f4e37;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(111, 78, 55, 0.2);
+}
+
+#coffeeSeeAll:active,
+#dessertSeeAll:active {
+  transform: scale(0.95);
+}
+.dessert_sec h1,
+.coffe_sec h1 {
+  text-align: center;
+  color: #71351f;
+}
+.dessert_sec,
+.coffe_sec {
+  margin-top: 200px;
+}
+/* media */
+
+/* ================================
+   RESPONSIVE DESIGN - LATTE LANE
+================================ */
+
+/* 1200px - Kichik desktop / laptop */
+@media (max-width: 1200px) {
+  .header {
+    padding: 0 25px;
+  }
+
+  .logo {
+    width: 160px;
+  }
+
+  .nav {
+    gap: 10px;
+  }
+
+  .nav a {
+    font-size: 16px;
+    padding: 10px 12px;
+  }
+
+  .buttons {
+    gap: 8px;
+  }
+
+  .buttons button {
+    padding: 9px 14px;
+    font-size: 14px;
+  }
+
+  .text {
+    width: 55%;
+  }
+
+  .text h1 {
+    font-size: 43px;
+  }
+
+  .text p {
+    font-size: 19px;
+  }
+
+  .sec-2 {
+    padding: 0 40px;
+    justify-content: center;
+    gap: clamp(40px, 8vw, 100px);
+  }
+
+  #coffee,
+  #dessert {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+    padding: 0 25px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .card-bottom {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .card-bottom h3 {
+    font-size: 17px;
+  }
+
+  .card-bottom button {
+    padding: 12px;
+    font-size: 13px;
+  }
+}
+
+/* 992px - Laptop / planshet */
+@media (max-width: 992px) {
+  .header {
+    height: auto;
+    min-height: 90px;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .logo {
+    width: 140px;
+    height: 60px;
+  }
+
+  .nav {
+    gap: 5px;
+  }
+
+  .nav a {
+    font-size: 14px;
+    padding: 9px 10px;
+  }
+
+  .buttons button {
+    font-size: 12px;
+    padding: 9px 12px;
+  }
+
+  .home {
+    padding-top: 120px;
+  }
+
+  .sec-1 {
+    margin-top: 30px;
+    height: auto;
+    min-height: 450px;
+    padding: 35px;
+  }
+
+  .text {
+    width: 70%;
+  }
+
+  .text h1 {
+    font-size: 40px;
+  }
+
+  .text p {
+    font-size: 18px;
+  }
+
+  .info {
+    gap: 25px;
+  }
+
+  .sec-2 {
+    height: auto;
+    min-height: 140px;
+    gap: 55px;
+    padding: 25px;
+  }
+
+  .sec-3 {
+    height: auto;
+    min-height: 0;
+    flex-direction: column;
+    padding: 35px 20px;
+  }
+
+  .about-img {
+    width: 100%;
+    height: 540px;
+  }
+
+  .about-img img {
+    width: clamp(190px, 35vw, 280px);
+    height: clamp(190px, 35vw, 280px);
+    border-radius: 45px;
+  }
+
+  .img1 {
+    top: 0;
+    left: 8%;
+  }
+
+  .img2 {
+    top: 130px;
+    left: 52%;
+  }
+
+  .img3 {
+    top: 270px;
+    left: 8%;
+  }
+
+  .about-text {
+    position: static;
+    width: 100%;
+    padding: 30px 15px;
+  }
+
+  .about-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .about-text p {
+    font-size: 18px;
+  }
+
+  .about-text p br {
+    display: none;
+  }
+
+  .about-coffee {
+    position: relative;
+    top: auto;
+    margin: 10px auto;
+    width: min(80%, 380px);
+  }
+
+  .about-coffee img {
+    width: 100%;
+    height: auto;
+  }
+
+  #coffee,
+  #dessert {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 25px;
+    padding: 0 25px;
+  }
+}
+
+/* 768px - Planshet */
+@media (max-width: 768px) {
+  .header {
+    justify-content: center;
+    padding: 8px 15px;
+    gap: 8px;
+  }
+
+  .logo {
+    width: 125px;
+    height: 48px;
+  }
+
+  .nav {
+    order: 2;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .nav a {
+    font-size: 13px;
+    padding: 8px 12px;
+  }
+
+  .buttons {
+    gap: 8px;
+  }
+
+  .buttons button {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+
+  .home {
+    padding-top: 145px;
+  }
+
+  .sec-1 {
+    margin-top: 0;
+    padding: 35px 25px;
+    min-height: 430px;
+  }
+
+  .text {
+    width: 100%;
+  }
+
+  .text h1 {
+    font-size: clamp(30px, 6vw, 40px);
+  }
+
+  .text p {
+    font-size: 16px;
+  }
+
+  .text p br {
+    display: none;
+  }
+
+  .sec-btn {
+    gap: 15px;
+  }
+
+  .info {
+    gap: 20px;
+    margin-top: 35px;
+  }
+
+  .info h3 {
+    font-size: 17px;
+  }
+
+  .info p {
+    font-size: 13px;
+  }
+
+  .sec-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 25px 15px;
+  }
+
+  .category i {
+    font-size: 32px;
+  }
+
+  .category p {
+    font-size: 13px;
+  }
+
+  .about-img {
+    height: 440px;
+  }
+
+  .about-img img {
+    width: 230px;
+    height: 230px;
+    border-radius: 35px;
+  }
+
+  .img1 {
+    left: 5%;
+    top: 0;
+  }
+
+  .img2 {
+    left: 48%;
+    top: 100px;
+  }
+
+  .img3 {
+    left: 5%;
+    top: 220px;
+  }
+
+  .about-text h1 {
+    font-size: 32px;
+  }
+
+  .about-text p {
+    font-size: 16px;
+  }
+
+  .coffe_sec,
+  .dessert_sec {
+    margin-top: 100px;
+  }
+
+  #coffee,
+  #dessert {
+    gap: 18px;
+    padding: 0 18px;
+  }
+
+  .card {
+    padding: 12px;
+    border-radius: 18px;
+  }
+
+  .card-img {
+    height: 190px;
+  }
+
+  .card-body {
+    padding: 15px 5px 0;
+  }
+
+  .card-body h2 {
+    font-size: 21px;
+  }
+
+  .card-body p {
+    font-size: 13px;
+  }
+
+  .card-bottom {
+    flex-wrap: wrap;
+    padding: 15px 5px 5px;
+  }
+
+  .card-bottom button {
+    width: 100%;
+  }
+}
+
+/* 576px - Katta telefon */
+@media (max-width: 576px) {
+  .header {
+    padding: 8px 10px;
+  }
+
+  .nav {
+    justify-content: center;
+  }
+
+  .nav a {
+    font-size: 12px;
+    padding: 7px 9px;
+  }
+
+  .buttons button {
+    font-size: 11px;
+    padding: 7px 10px;
+  }
+
+  .home {
+    padding-top: 140px;
+    min-height: auto;
+    padding-bottom: 30px;
+  }
+
+  .sec-1 {
+    min-height: auto;
+    padding: 35px 18px;
+  }
+
+  .text h1 {
+    font-size: 32px;
+  }
+
+  .text p {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .sec-btn {
+    gap: 10px;
+  }
+
+  .sec-btn button {
+    font-size: 13px;
+    padding: 10px 13px;
+  }
+
+  .info {
+    justify-content: space-between;
+    gap: 8px;
+  }
+
+  .info h3 {
+    font-size: 15px;
+  }
+
+  .info p {
+    font-size: 11px;
+  }
+
+  .sec-2 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 30px 20px;
+  }
+
+  .category i {
+    font-size: 35px;
+  }
+
+  .category p {
+    font-size: 15px;
+  }
+
+  .sec-3 {
+    padding: 25px 12px;
+  }
+
+  .about-img {
+    height: 340px;
+  }
+
+  .about-img img {
+    width: 175px;
+    height: 175px;
+    border-radius: 25px;
+  }
+
+  .img1 {
+    left: 3%;
+    top: 0;
+  }
+
+  .img2 {
+    left: 48%;
+    top: 80px;
+  }
+
+  .img3 {
+    left: 3%;
+    top: 165px;
+  }
+
+  .about-text {
+    padding: 20px 5px;
+  }
+
+  .about-text h1 {
+    font-size: 29px;
+  }
+
+  .about-text p {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .about-coffee {
+    width: 90%;
+  }
+
+  .coffe_sec,
+  .dessert_sec {
+    margin-top: 70px;
+  }
+
+  .coffe_sec h1,
+  .dessert_sec h1 {
+    font-size: 28px;
+  }
+
+  #coffee,
+  #dessert {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    padding: 0 25px;
+    margin-top: 30px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+
+  .card-img {
+    height: 230px;
+  }
+
+  .card-body h2 {
+    font-size: 24px;
+  }
+
+  .card-body p {
+    font-size: 14px;
+    min-height: auto;
+  }
+
+  .card-bottom {
+    flex-wrap: nowrap;
+    padding: 20px 5px 5px;
+  }
+
+  .card-bottom h3 {
+    font-size: 16px;
+  }
+
+  .card-bottom button {
+    width: auto;
+    padding: 12px 13px;
+    font-size: 12px;
+  }
+
+  #coffeeSeeAll,
+  #dessertSeeAll {
+    margin: 30px auto;
+    padding: 12px 25px;
+  }
+}
+
+/* 480px - Kichik telefon */
+@media (max-width: 480px) {
+  .logo {
+    width: 110px;
+  }
+
+  .buttons {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .home {
+    padding-top: 170px;
+  }
+
+  .text h1 {
+    font-size: 29px;
+  }
+
+  .info {
+    gap: 5px;
+  }
+
+  .info h3 {
+    font-size: 14px;
+  }
+
+  .info p {
+    font-size: 10px;
+  }
+
+  .about-img {
+    height: 300px;
+  }
+
+  .about-img img {
+    width: 155px;
+    height: 155px;
+  }
+
+  .img2 {
+    top: 75px;
+  }
+
+  .img3 {
+    top: 150px;
+  }
+
+  .card-img {
+    height: 210px;
+  }
+
+  .card-bottom h3 {
+    font-size: 15px;
+  }
+
+  .card-bottom button {
+    padding: 11px 10px;
+    font-size: 11px;
+  }
+}
+
+/* 360px - Juda kichik telefon */
+@media (max-width: 360px) {
+  .nav a {
+    font-size: 11px;
+    padding: 7px;
+  }
+
+  .text h1 {
+    font-size: 25px;
+  }
+
+  .text p {
+    font-size: 13px;
+  }
+
+  .sec-btn button {
+    font-size: 12px;
+    padding: 9px 11px;
+  }
+
+  .info h3 {
+    font-size: 12px;
+  }
+
+  .info p {
+    font-size: 9px;
+  }
+
+  .about-img img {
+    width: 135px;
+    height: 135px;
+  }
+
+  .about-img {
+    height: 265px;
+  }
+
+  .img2 {
+    top: 65px;
+  }
+
+  .img3 {
+    top: 130px;
+  }
+
+  #coffee,
+  #dessert {
+    padding: 0 12px;
+  }
+
+  .card {
+    padding: 10px;
+  }
+
+  .card-bottom {
+    gap: 5px;
+  }
+
+  .card-bottom h3 {
+    font-size: 13px;
+  }
+
+  .card-bottom button {
+    font-size: 10px;
+    padding: 10px 8px;
+  }
+}
